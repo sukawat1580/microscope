@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.5
+Version: 4.1.0
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+<meta charset="utf-8"/>
+<title>BAM | Dashboard</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta content="" name="description"/>
+<meta content="" name="author"/>
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
+<link href="../../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN THEME STYLES -->
+<link href="../../assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="../../assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css"/>
+<link id="style_color" href="../../assets/admin/layout/css/themes/blue.css" rel="stylesheet" type="text/css"/>
+<link href="../../assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME STYLES -->
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<!-- DOC: Apply "page-header-fixed-mobile" and "page-footer-fixed-mobile" class to body element to force fixed header or footer in mobile devices -->
+<!-- DOC: Apply "page-sidebar-closed" class to the body and "page-sidebar-menu-closed" class to the sidebar menu element to hide the sidebar by default -->
+<!-- DOC: Apply "page-sidebar-hide" class to the body to make the sidebar completely hidden on toggle -->
+<!-- DOC: Apply "page-sidebar-closed-hide-logo" class to the body element to make the logo hidden on sidebar toggle -->
+<!-- DOC: Apply "page-sidebar-hide" class to body element to completely hide the sidebar on sidebar toggle -->
+<!-- DOC: Apply "page-sidebar-fixed" class to have fixed sidebar -->
+<!-- DOC: Apply "page-footer-fixed" class to the body element to have fixed footer -->
+<!-- DOC: Apply "page-sidebar-reversed" class to put the sidebar on the right side -->
+<!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
+<body class="page-header-fixed page-quick-sidebar-over-content page-sidebar-fixed">
+<!-- BEGIN HEADER -->
+<div class="page-header navbar navbar-fixed-top">
+	<!-- BEGIN HEADER INNER -->
+	<div class="page-header-inner">
+		<!-- BEGIN LOGO -->
+		<div class="page-logo">
+			<a href="index.html">
+			<img src="../../assets/admin/layout/img/logo.png" alt="logo" class="logo-default"/>
+			</a>
+			<div class="menu-toggler sidebar-toggler">
+			</div>
+		</div>
+		<!-- END LOGO -->
+		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+		<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+		</a>
+		<!-- END RESPONSIVE MENU TOGGLER -->
+	</div>
+	<!-- END HEADER INNER -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+	<!-- BEGIN SIDEBAR -->
+	<div class="page-sidebar-wrapper">
+		<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+		<!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+		<div class="page-sidebar navbar-collapse collapse">
+			<!-- BEGIN SIDEBAR MENU -->
+			<!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+			<!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+			<!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+			<!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+			<!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+			<!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+			<ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+        <!-- BEGIN Dashboard -->
+				<li class="active">
+					<a href="dashboard.html">
+            <i class="icon-home sidebar-icon"></i>
+            <span class="title">Dashboard</span>
+					</a>
+				</li>
+        <!-- END Dashboard -->
+        <!-- BEGIN มุมล้อหรือมุมการจัดตั้งล้อ -->
+				<li>
+					<a href="javascript:;">
+            <i class="icon-bulb sidebar-icon"></i>
+            <span class="title">มุมล้อหรือมุมการจัดตั้งล้อ</span>
+            <span class="arrow"></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="intro_camber.html">
+                <i class="icon-bulb sidebar-icon"></i>
+                <span class="title">มุมแคมเบอร์</span>
+              </a>
+						</li>
+						<li>
+							<a href="intro_caster.html">
+                <i class="icon-bulb sidebar-icon"></i>
+                <span class="title">มุมคาสเตอร์</span>
+              </a>
+						</li>
+						<li>
+							<a href="intro_toe.html">
+                <i class="icon-bulb sidebar-icon"></i>
+                <span class="title">มุมโท</span>
+              </a>
+						</li>
+						<li>
+							<a href="intro_inclin.html">
+                <i class="icon-bulb sidebar-icon"></i>
+                <span class="title">มุมเอียงแกนเลี้ยวล้อ</span>
+              </a>
+						</li>
+						<li>
+							<a href="intro_total_angle.html">
+                <i class="icon-bulb sidebar-icon"></i>
+                <span class="title">มุมรวม</span>
+              </a>
+						</li>
+						<li>
+							<a href="intro_toe_on_turn.html">
+                <i class="icon-bulb sidebar-icon"></i>
+                <span class="title">มุมโทขณะเลี้ยวล้อ</span>
+              </a>
+						</li>
+					</ul>
+				</li>
+        <!-- END มุมล้อหรือมุมการจัดตั้งล้อ -->
+        <!-- BEGIN มุมแคมเบอร์ -->
+				<li>
+					<a href="javascript:;">
+            <i class="icon-briefcase sidebar-icon"></i>
+            <span class="title">มุมแคมเบอร์</span>
+            <span class="arrow"></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="javascript:;">
+                <i class="icon-briefcase sidebar-icon"></i>
+                <span class="title">วัตถุประสงค์ที่ต้องมีมุมแคมเบอร์</span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="camber_obj1.html">เพื่อนำจุดสัมผัสของยางบนพื้นถนนเข้าใกล้จุดต่อของเพลาล้อหน้า</a>
+								</li>
+								<li>
+									<a href="camber_obj2.html">เพื่อทำให้น้ำหนักรถตกผ่าน</a>
+								</li>
+								<li>
+									<a href="camber_obj3.html">เพื่อป้องกันการสึกหรอของยางเร็วกว่าปกติ</a>
+								</li>
+								<li>
+									<a href="camber_obj4.html">เพื่อให้พวงมาลัยเบาลง</a>
+								</li>
+								<li>
+									<a href="camber_obj5.html">เพื่อลดอาการปัดของล้อหน้าขณะเบรค</a>
+								</li>
+								<li>
+									<a href="camber_obj6.html">เพื่อลดอาการแกว่งของพวงมาลัย</a>
+								</li>
+							</ul>
+            </li>
+						<li>
+							<a href="camber_depend.html">
+                <i class="icon-briefcase sidebar-icon"></i>
+                <span class="title">ชิ้นส่วนที่ทำให้เกิดมุมแคมเบอร์</span>
+              </a>
+						</li>
+						<li>
+							<a href="javascript:;">
+                <i class="icon-briefcase sidebar-icon"></i>
+                <span class="title">ผลของมุมแคมเบอร์ขณะรถแล่นตรง</span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="camber_effect1.html">พวงมาลัยดึง</a>
+								</li>
+								<li>
+									<a href="camber_effect2.html">ยางสึกหรอเร็ว</a>
+								</li>
+								<li>
+									<a href="camber_effect3.html">ลูกปืนและลูกหมากคันส่งสึกหรอเร็ว</a>
+								</li>
+							</ul>
+            </li>
+						<li>
+							<a href="camber_effect4.html">
+                <i class="icon-briefcase sidebar-icon"></i>
+                <span class="title">ผลของมุมแคมเบอร์ขณะรถแล่นบนทางเอียง</span>
+              </a>
+						</li>
+						<li>
+							<a href="camber_effect5.html">
+                <i class="icon-briefcase sidebar-icon"></i>
+                <span class="title">ผลของมุมแคมเบอร์ขณะรถแล่นเลี้ยวโค้ง</span>
+              </a>
+						</li>
+					</ul>
+				</li>
+				<!-- END มุมแคมเบอร์ -->
+        <!-- BEGIN มุมคาสเตอร์ -->
+				<li>
+					<a href="javascript:;">
+            <i class="icon-bar-chart sidebar-icon"></i>
+            <span class="title">มุมคาสเตอร์</span>
+            <span class="arrow"></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="javascript:;">
+                <i class="icon-bar-chart sidebar-icon"></i>
+                <span class="title">วัตถุประสงค์ที่ต้องมีมุมคาสเตอร์</span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="caster_obj1.html">ให้รถยนต์มีเสถียรภาพในทิศทางการแล่น</a>
+								</li>
+								<li>
+									<a href="caster_obj2.html">ทำให้ล้อหมุนคืนกลับหลังจากเลี้ยว</a>
+								</li>
+								<li>
+									<a href="caster_obj3.html">ชดเชยสภาพความเอียงของผิวถนน</a>
+								</li>
+							</ul>
+            </li>
+						<li>
+							<a href="caster_depend.html">
+                <i class="icon-bar-chart sidebar-icon"></i>
+                <span class="title">ชิ้นส่วนที่ทำให้เกิดมุมคาสเตอร์</span>
+              </a>
+						</li>
+						<li>
+							<a href="caster_zero.html">
+                <i class="icon-bar-chart sidebar-icon"></i>
+                <span class="title">มุมคาสเตอร์ศูนย์</span>
+              </a>
+						</li>
+						<li>
+							<a href="caster_positive.html">
+                <i class="icon-bar-chart sidebar-icon"></i>
+                <span class="title">มุมคาสเตอร์บวก</span>
+              </a>
+						</li>
+						<li>
+							<a href="caster_negative.html">
+                <i class="icon-bar-chart sidebar-icon"></i>
+                <span class="title">มุมคาสเตอร์ลบ</span>
+              </a>
+						</li>
+						<li>
+							<a href="caster_car_height.html">
+                <i class="icon-bar-chart sidebar-icon"></i>
+                <span class="title">ผลของความสูงของตัวรถที่มีต่อมุมคาสเตอร์</span>
+              </a>
+						</li>
+						<li>
+							<a href="caster_break.html">
+                <i class="icon-bar-chart sidebar-icon"></i>
+                <span class="title">ผลของการเบรคที่มีต่อมุมคาสเตอร์ </span>
+              </a>
+						</li>
+						<li>
+							<a href="caster_incorrect.html">
+                <i class="icon-bar-chart sidebar-icon"></i>
+                <span class="title">ผลของมุมคาสเตอร์ไม่ถูกต้อง</span>
+              </a>
+						</li>
+					</ul>
+				</li>
+				<!-- END มุมคาสเตอร์ -->
+        <!-- BEGIN มุมโท -->
+				<li>
+					<a href="javascript:;">
+            <i class="icon-puzzle sidebar-icon"></i>
+            <span class="title">มุมโท</span>
+            <span class="arrow"></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="javascript:;">
+                <i class="icon-puzzle sidebar-icon"></i>
+                <span class="title">วัตถุประสงค์ที่ต้องมีมุมโท</span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="toe_obj1.html">เพื่อไม่ให้ยางสึกหรอเร็วกว่าปกติ</a>
+								</li>
+								<li>
+									<a href="toe_obj2.html">เพื่อชดเชยการเคลื่อนที่แยกออกจากกันของล้อที่มีมุมแคมเบอร์บวก</a>
+								</li>
+							</ul>
+            </li>
+						<li>
+							<a href="toe_depend.html">
+                <i class="icon-puzzle sidebar-icon"></i>
+                <span class="title">ชิ้นส่วนที่ก่อให้เกิดมุมโท</span>
+              </a>
+						</li>
+						<li>
+							<a href="toe_front.html">
+                <i class="icon-puzzle sidebar-icon"></i>
+                <span class="title">มุมโทล้อหน้า</span>
+              </a>
+						</li>
+						<li>
+							<a href="javascript:;">
+                <i class="icon-puzzle sidebar-icon"></i>
+                <span class="title">ผลจากมุมโทไม่ถูกต้อง</span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="toe_effect1.html">ทำให้ดอกยางสึกหรอเร็วกว่าปกติ</a>
+								</li>
+								<li>
+									<a href="toe_effect2.html">รถแล่นส่ายถ้ามีมุมโทเอ้าท์</a>
+								</li>
+							</ul>
+            </li>
+					</ul>
+				</li>
+				<!-- END มุมโท -->
+        <!-- BEGIN มุมเอียงแกนเลี้ยวล้อ -->
+				<li>
+					<a href="javascript:;">
+            <i class="icon-settings sidebar-icon"></i>
+            <span class="title">มุมเอียงแกนเลี้ยวล้อ</span>
+            <span class="arrow"></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="javascript:;">
+                <i class="icon-settings sidebar-icon"></i>
+                <span class="title">วัตถุประสงค์ที่ต้องมีมุมเอียงแกนเลี้ยวล้อ</span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="inclin_obj1.html">เพื่อลดมุมแคมเบอร์ลง</a>
+								</li>
+								<li>
+									<a href="inclin_obj2.html">เพื่อกระจายน้ำหนักรถให้กดลงบนผิวถนนเท่ากันตลอดหน้ายาง</a>
+								</li>
+								<li>
+									<a href="inclin_obj3.html">เพื่อให้รถทรงตัวดี</a>
+								</li>
+								<li>
+									<a href="inclin_obj4.html">เพื่อให้บังคับเลี้ยวง่าย</a>
+								</li>
+							</ul>
+            </li>
+						<li>
+							<a href="inclin_depend.html">
+                <i class="icon-settings sidebar-icon"></i>
+                <span class="title">ชิ้นส่วนที่ทำให้เกิดมุมเอียงแกนเลี้ยวล้อ</span>
+              </a>
+						</li>
+						<li>
+							<a href="inclin_inc_angle.html">
+                <i class="icon-settings sidebar-icon"></i>
+                <span class="title">มุมรวม</span>
+              </a>
+						</li>
+						<li>
+							<a href="inclin_center.html">
+                <i class="icon-settings sidebar-icon"></i>
+                <span class="title">จุดศูนย์กลางการเลี้ยวล้อ</span>
+              </a>
+						</li>
+						<li>
+							<a href="javascript:;">
+                <i class="icon-settings sidebar-icon"></i>
+                <span class="title">รัศมีเลี้ยวล้อ </span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="inclin_pos_turn.html">รัศมีเลี้ยวล้อเป็นบวก</a>
+								</li>
+								<li>
+									<a href="inclin_zero_turn.html">รัศมีเลี้ยวล้อเป็นศูนย์</a>
+								</li>
+								<li>
+									<a href="inclin_neg_turn.html">รัศมีเลี้ยวล้อเป็นลบ</a>
+								</li>
+							</ul>
+            </li>
+					</ul>
+				</li>
+				<!-- END มุมเอียงแกนเลี้ยวล้อ -->
+        <!-- BEGIN มุมโทเอ้าท์ขณะเลี้ยว -->
+				<li>
+					<a href="javascript:;">
+            <i class="icon-paper-plane sidebar-icon"></i>
+            <span class="title">มุมโทเอ้าท์ขณะเลี้ยว</span>
+            <span class="arrow"></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="toeout1.html">
+                <i class="icon-paper-plane sidebar-icon"></i>
+                <span class="title">มุมโทเอ้าท์ขณะเลี้ยว</span>
+              </a>
+						</li>
+						<li>
+							<a href="toeout2.html">
+                <i class="icon-paper-plane sidebar-icon"></i>
+                <span class="title">การวัดมุมโทเอ้าท์ขณะเลี้ยว</span>
+              </a>
+						</li>
+					</ul>
+				</li>
+				<!-- END มุมโทเอ้าท์ขณะเลี้ยว -->
+        <!-- BEGIN ศูนย์ของโครงรถ -->
+				<li>
+					<a href="javascript:;">
+            <i class="icon-pointer sidebar-icon"></i>
+            <span class="title">ศูนย์ของโครงรถ</span>
+            <span class="arrow"></span>
+					</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="javascript:;">
+                <i class="icon-pointer sidebar-icon"></i>
+                <span class="title">ความหมาย</span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="frm_wheel_track.html">ระยะช่วงล้อ</a>
+								</li>
+								<li>
+									<a href="frm_wheel_base.html">ระยะฐานล้อ</a>
+								</li>
+							</ul>
+            </li>
+						<li>
+							<a href="frm_check.html">
+                <i class="icon-pointer sidebar-icon"></i>
+                <span class="title">การตรวจวัดศูนย์ของโครงรถ</span>
+              </a>
+						</li>
+						<li>
+							<a href="javascript:;">
+                <i class="icon-pointer sidebar-icon"></i>
+                <span class="title">ลักษณะการเสียศูนย์ของโครงรถ</span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="frm_front.html">คานหน้าเอียง</a>
+								</li>
+								<li>
+									<a href="frm_rear.html">เพลาหลังเอียง</a>
+								</li>
+								<li>
+									<a href="frm_both.html">คานหน้าและเพลาหลังเอียง</a>
+								</li>
+								<li>
+									<a href="frm_imbal.html">โครงรถไม่ได้ศูนย์</a>
+								</li>
+							</ul>
+            </li>
+						<li>
+							<a href="javascript:;">
+                <i class="icon-pointer sidebar-icon"></i>
+                <span class="title">สาเหตุอื่นที่ทำให้ศูนย์ล้อผิดพลาด</span>
+                <span class="arrow"></span>
+							</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="frm_bad_wheel.html">ใช้ยางไม่เหมาะสม</a>
+								</li>
+								<li>
+									<a href="frm_load.html">บรรทุกน้ำหนักไม่เหมาะสม</a>
+								</li>
+								<li>
+									<a href="frm_susp.html">การสึกหรอของระบบรองรับน้ำหนัก</a>
+								</li>
+							</ul>
+            </li>
+					</ul>
+				</li>
+				<!-- END ศูนย์ของโครงรถ -->
+			</ul>
+			<!-- END SIDEBAR MENU -->
+		</div>
+	</div>
+	<!-- END SIDEBAR -->
+	<!-- BEGIN CONTENT -->
+	<div class="page-content-wrapper">
+		<div class="page-content">
+      <!-- ################### -->
+			<!-- BEGIN PAGE HEADER-->
+			<h3 class="page-title">
+			ความรู้เบื้องต้นเกี่ยวกับศูนย์ล้อ <small>Basic wheel aligment</small>
+			</h3>
+			<div class="page-bar">
+				<ul class="page-breadcrumb">
+					<li>
+						<i class="fa fa-home"></i>
+						<a href="dashboard.html">Dashboard | </a>
+					</li>
+					<li>
+						<a href="intro_camber.html">หัวข้อถัดไป</a>
+					</li>
+				</ul>
+				<div class="page-toolbar">
+					<div class="btn-group pull-right">
+						<button type="button" class="btn btn-fit-height grey-salt dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="true">
+						Actions <i class="fa fa-angle-down"></i>
+						</button>
+						<ul class="dropdown-menu pull-right" role="menu">
+							<li>
+								<a href="dashboard.html">Dashboard</a>
+							</li>
+							<li>
+								<a href="intro_camber.html">หัวข้อถัดไป</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- END PAGE HEADER-->
+			<!-- BEGIN PAGE CONTENT-->
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-10">
+          <div class="top-news">
+            <a href="intro_camber.html" class="btn green">
+              <span>มุมล้อหรือมุมการจัดตั้งล้อ</span>
+              <em>มุมล้อหรือมุมการจัดตั้งล้อ</em>
+              <em>
+                <i class="fa fa-tags"></i>มุมแคมเบอร์
+              </em>
+              <i class="fa fa-gears top-news-icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="top-news">
+            <a href="camber_obj1.html" class="btn yellow">
+              <span>มุมแคมเบอร์</span>
+              <em>วัตถุประสงค์ที่ต้องมีมุมแคมเบอร์</em>
+              <em>
+                <i class="fa fa-tags"></i>เพื่อนำจุดสัมผัสของยางบนพื้นถนน...
+              </em>
+              <i class="fa fa-gears top-news-icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="top-news">
+            <a href="caster_obj1.html" class="btn red">
+              <span>มุมคาสเตอร์</span>
+              <em>วัตถุประสงค์ที่ต้องมีมุมคาสเตอร์</em>
+              <em>
+                <i class="fa fa-tags"></i>ให้รถยนต์มีเสถียรภาพในทิศทางการแล่น
+              </em>
+              <i class="fa fa-car top-news-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+			<div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-10">
+          <div class="top-news">
+            <a href="toe_obj1.html" class="btn blue">
+              <span>มุมโท</span>
+              <em>วัตถุประสงค์ที่ต้องมีมุมโท</em>
+              <em>
+                <i class="fa fa-tags"></i>เพื่อไม่ให้ยางสึกหรอเร็วกว่าปกติ
+              </em>
+              <i class="fa fa-university top-news-icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="top-news">
+            <a href="inclin_obj1.html" class="btn purple">
+              <span>มุมเอียงแกนเลี้ยวล้อ</span>
+              <em>วัตถุประสงค์ที่ต้องมีมุมเอียงแกนเลี้ยวล้อ</em>
+              <em>
+                <i class="fa fa-tags"></i>เพื่อลดมุมแคมเบอร์
+              </em>
+              <i class="fa fa-flag top-news-icon"></i>
+            </a>
+          </div>
+        </div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="top-news">
+            <a href="toeout1.html" class="btn grey-cascade">
+              <span>มุมโทเอ้าท์ขณะเลี้ยว</span>
+              <em>วัตถุประสงค์ที่ต้องมีมุมโทเอ้าท์ขณะเลี้ยว</em>
+              <em>
+                <i class="fa fa-tags"></i>มุมโทเอ้าท์ขณะเลี้ยว
+              </em>
+              <i class="fa fa-globe top-news-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" margin-bottom-10">
+          <div class="top-news">
+            <a href="frm_wheel_track.html" class="btn green-meadow">
+              <span>ศูนย์ของโครงรถ</span>
+              <em>วัตถุประสงค์ของศูนย์ของโครงรถ</em>
+              <em>
+                <i class="fa fa-tags"></i>ระยะช่วงล้อ
+              </em>
+              <i class="fa fa-truck top-news-icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="top-news">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="top-news">
+          </div>
+        </div>
+      </div>
+		</div>
+		<!-- END PAGE CONTENT-->
+	</div>
+  <!-- END CONTENT -->
+</div>
+<!-- </div> ###############-->
+<!-- END CONTAINER -->
+<!-- BEGIN FOOTER -->
+<div class="page-footer">
+  <div class="page-footer-inner">
+     2015 &copy; <a href="http://www.bangkokautomach.com" title="บริษัท กรุงเทพออโตแมช จำกัด โทร: 0-2369-3838" target="_blank">Bangkok Automach Co., Ltd.</a>
+  </div>
+  <div class="scroll-to-top">
+    <i class="icon-arrow-up"></i>
+  </div>
+</div>
+<!-- END FOOTER -->
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="../../assets/global/plugins/respond.min.js"></script>
+<script src="../../assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+<script src="../../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="../../assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<!-- IMPORTANT! Load jquery-ui.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+<script src="../../assets/global/plugins/jquery-ui/jquery-ui.min.js" type="text/javascript"></script>
+<script src="../../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="../../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="../../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="../../assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="../../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="../../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<script src="../../assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="../../assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
+<script src="../../assets/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
+<script src="../../assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
+<script>
+      jQuery(document).ready(function() {    
+        Metronic.init(); // init metronic core components
+Layout.init(); // init current layout
+QuickSidebar.init(); // init quick sidebar
+Demo.init(); // init demo features
+      });
+   </script>
+<!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
